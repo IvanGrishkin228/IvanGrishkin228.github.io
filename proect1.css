@@ -1,0 +1,90 @@
+body {
+    background-image: url(logofon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+.header-row {
+    display: flex;
+    flex-direction: row;
+    background: rgb(248, 240, 240);
+    border-bottom: 2px solid black;
+}
+.logo-img {
+    width: 10%;
+}
+.header-logo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+.header-menu{
+    flex-grow: 1;
+
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-top: 10px;
+    justify-content: center;
+    
+    
+}
+.cards-section {
+    padding: 50px 0;
+}
+
+.cards-title, .cards-description {
+    color: black;
+    text-align: center;
+}
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    width: 20%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px rgb(102, 23, 69);
+    text-align: center;
+    
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+
+
+}
+.card-button {
+    background-color: rgb(7, 0, 4);
+    text-align: center;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.card-title, .card-description {
+    margin-top: 10px;
+    
+
+    
+    
+}
+
+.card-button:hover {
+    background: linear-gradient(45deg, rgb(83, 48, 8), rgb(196, 137, 102) );
+}
+
+.card-img {
+    width: 70%;
+}
+
